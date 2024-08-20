@@ -1,0 +1,39 @@
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.background-carousel {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)), url("https://cdn.pixabay.com/photo/2016/08/19/22/26/landscape-1606431_1280.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-pagination-bullet {
+  width: 10px !important;
+  height: 10px !important;
+  background-color: #000000;
+  border: 3px solid transparent;
+}
+
+.swiper-pagination-bullet-active {
+  width: 20px !important;
+  height: 10px !important;
+  border-radius: 12px;
+  background-color: #d2d2d2;
+  border: 3px solid #ef4444;
+}
+
+
+/*  */
