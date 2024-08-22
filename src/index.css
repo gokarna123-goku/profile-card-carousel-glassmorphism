@@ -13,8 +13,12 @@
 @tailwind utilities;
 
 
+/* linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)), */
+/* https://cdn.pixabay.com/photo/2016/08/19/22/26/landscape-1606431_1280.png */
+
+
 .background-carousel {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)), url("https://cdn.pixabay.com/photo/2016/08/19/22/26/landscape-1606431_1280.png");
+  background: url("https://cdn.pixabay.com/photo/2012/04/18/22/17/night-38060_1280.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
